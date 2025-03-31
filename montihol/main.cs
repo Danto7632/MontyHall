@@ -10,7 +10,7 @@ namespace ConsoleApp2
   {
     static void Main(string[] args)
     { 
-      Console.Write("\n 수학체험전에 오신걸 환영합니다!\n\n 제작자 SNS           Instargram : otter._.king \n                                Made by. 김인성 \n\n 시행 횟수를 입력하세요 : ");
+      Console.Write("수학체험전에 오신걸 환영합니다!\n시행 횟수를 입력하세요 : ");
       string times = Console.ReadLine();
       int a = Int32.Parse(times);
       
